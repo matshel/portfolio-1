@@ -107,15 +107,16 @@ a {
 }
 
 .see-the-projects {
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 250px;
     background: orange;
     border-radius: 50px;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.58);
     cursor: pointer;
-    color: white;
+    color: black;
     font-size: 1.3rem;
 }
 
