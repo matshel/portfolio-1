@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- wrapper -->
+        <div class="wrapper">
+            <!-- logo section -->
+            <div class="logo-section">
+                <div class="logo"><a href="index.html">Portfolio</a></div>
+            </div>
+            <!-- logo section end -->
+            <!-- hero section -->
+            <div class="hero-section">
+                <div class="hero-info-box">
+                    <img
+                        src="images/hero-section-programmer.png"
+                        alt="Illustration of a programmer in front of a laptop, with code in the background"
+                    />
+                    <h1>My Portfolio</h1>
+                    <p>
+                        This portfolio represents three of my projects from the first year of studying Front-end development at Noroff
+                        School of Technology.
+                    </p>
+                    <div>
+                        <a class="see-the-projects" href="index.html#scroll-down">See my projects</a>
+                    </div>
+                </div>
+            </div>
+            <!-- hero section end -->
+            <div id="scroll-down"></div>
+            <!-- portfolio section -->
+            <div class="portfolio-section">
+                <!-- project 1 -->
+                <div class="project">
+                    <div class="image-wrap">
+                        <a class="project-image" href="#"><img src="images/vegancritic-full.jpg" alt="" /></a>
+                    </div>
+                    <h2>Vegancritic</h2>
+                    <h3>About the project</h3>
+                    <p>
+                        This project is a personal blog by "Eva Normann" called Vegancritic. The purpose of this blog is critiquing vegan
+                        dishes served at restaurants around the world, and writing blog posts about it!
+                    </p>
+                    <h3>Changes</h3>
+                    <ul>
+                        <li>Changed variable font naming so it would make more sense if one were to change fonts in the future</li>
+                        <li>Removed background image code that was unused due to change in the design</li>
+                        <li>Resize fonts details page from 1.7rem to 1.3rem to make it look more neat</li>
+                        <li>Optimizing DRY principle on headers css</li>
+                        <li>Made a more lengthy description on the index page after feedback</li>
+                        <li>Made change to input fields on index page, so they would not move up when showing errors after feedback</li>
+                        <li>In post.js the image tag for "post-img" wasn't closed properly, added proper closing</li>
+                        <li>Removed button-container around the button, and changed it from display:grid to block after feedback</li>
+                        <li>Made the hover effect on Show more button more visible.</li>
+                        <li>Removed button inside an anchor tag after feedback</li>
+                    </ul>
+                    <div class="portfolio-links">
+                        <div>
+                            <a href="https://vegancritic.netlify.app"><i class="fas fa-external-link-alt fa-lg"></i> See the site</a>
+                        </div>
+                        <div>
+                            <a href="https://github.com"><i class="fab fa-github fa-lg"></i> See the code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- project 1 end -->
+                <!-- project 2 -->
+                <div class="project">
+                    <div class="image-wrap">
+                        <a class="project-image" href="#"><img src="images/cs-museum.jpg" alt="" /></a>
+                    </div>
+                    <h2>Community Science Museum</h2>
+                    <h3>About the project</h3>
+                    <p>
+                        This project is about an interactive science museum called the CS Museum, short for "Community Science Museum" It's
+                        core target audience is primary and middle school children (7-15) and families with young children.
+                    </p>
+                    <h3>Changes</h3>
+                    <p>
+                        For this project, I decided to completely rework it. Based on the feedback from the site before the rework, there
+                        had been too much use of illustrations and images. Difficult colors and contrast ratios. So with this rework I
+                        wanted to make it neat looking, easy to navigate, and have more manageable color schema. Gone are most of the
+                        images, and all the illustrations. I wanted something on the front page to appeal to the target audience, so I put
+                        up sections to Rob the robot, and the clubs for children. This project came with a copy, and I felt like in order to
+                        get all the information neatly presented I needed at least 5 pages.
+                    </p>
+                    <div class="portfolio-links">
+                        <a href="https://vegancritic.netlify.app"><i class="fas fa-external-link-alt fa-lg"></i> See the site</a>
+                        <a href="https://github.com"><i class="fab fa-github fa-lg"></i> See the code</a>
+                    </div>
+                </div>
+                <!-- project 2 end -->
+                <!-- project 3 -->
+                <div class="project">
+                    <div class="image-wrap">
+                        <a class="project-image" href="#"><img src="images/rainydays.jpg" alt="" /></a>
+                    </div>
+                    <h2>Rainydays</h2>
+                    <h3>About the project</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus explicabo dolores perferendis qui
+                        error placeat fugit accusamus deserunt voluptatum!
+                    </p>
+                    <h3>Changes</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quo tempore iure. Provident, possimus debitis!
+                        Aspernatur, nesciunt rerum. Facilis, pariatur eum atque doloribus odio animi eligendi obcaecati quo unde
+                        perferendis.
+                    </p>
+                    <div class="portfolio-links">
+                        <a href="https://vegancritic.netlify.app"><i class="fas fa-external-link-alt fa-lg"></i> See the site</a>
+                        <a href="https://github.com"><i class="fab fa-github fa-lg"></i> See the code</a>
+                    </div>
+                </div>
+                <!-- project 3 end -->
+            </div>
+            <!-- portfolio section end -->
+            <!-- footer -->
+            <footer>
+                <div class="footer-container">
+                    <i class="far fa-copyright" aria-hidden="true"></i>
+                    <h4>Copyright Mats Helgesen 2021</h4>
+                </div>
+            </footer>
+            <!-- footer end -->
+        </div>
+        <!-- wrapper end -->
+    </body>
+</html>
