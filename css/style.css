@@ -139,7 +139,7 @@ a {
 /* portfolio section */
 .portfolio-section {
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -186,6 +186,10 @@ a {
 
 .portfolio-links a:first-child {
     margin-right: 10px;
+}
+
+.project-r {
+    max-width: 1300px;
 }
 /* portfolio section end*/
 
