@@ -1,4 +1,4 @@
 # portfolio-1
-This portfolio website represents three of my projects from the first year of studying Front-end development at Noroff School of Technology. 
+This portfolio website presents three of my projects as part of a delivery from the first year of studying Front-end development at Noroff School of Technology. 
 
 ![image of portfolio site](images/portfolio1.png)
